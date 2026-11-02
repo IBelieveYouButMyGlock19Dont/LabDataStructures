@@ -1,0 +1,11 @@
+[2026-11-02 15:56:22] [INFO] [default ctor] id=1 this=0x16b20b228 alive=1
+[2026-11-02 15:56:22] [INFO] [cstr ctor] id=2 this=0x16b20b208 value="hello" alive=2
+[2026-11-02 15:56:22] [INFO] [string ctor] id=3 this=0x16b20b1d0 value="world" alive=3
+[2026-11-02 15:56:22] [INFO] [copy ctor] id=4 this=0x16b20b1b0 from id=3 alive=4
+[2026-11-02 15:56:22] [INFO] [copy assign] id=1 this=0x16b20b228 from id=2
+[2026-11-02 15:56:22] [INFO] [dtor] id=4 this=0x16b20b1b0 alive=3
+[2026-11-02 15:56:22] [INFO] [dtor] id=3 this=0x16b20b1d0 alive=2
+[2026-11-02 15:56:22] [INFO] [dtor] id=2 this=0x16b20b208 alive=1
+[2026-11-02 15:56:22] [INFO] [dtor] id=1 this=0x16b20b228 alive=0
+[2026-11-02 15:56:22] [INFO] totalCreated = 4
+[2026-11-02 15:56:22] [INFO] aliveCount = 0

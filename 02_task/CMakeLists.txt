@@ -1,6 +1,7 @@
 add_executable(02_task
         main.cpp
         tracked_string.cpp
+        tracked_string.h
 )
 
 target_include_directories(02_task PRIVATE
