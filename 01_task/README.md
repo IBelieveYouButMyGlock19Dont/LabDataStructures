@@ -1,7 +1,7 @@
 # Question_№1
 
 The method must be static because we need to use it without creating an object first. 
-Since constructor is private, we cannot create a Logger object directly.
+The constructor is private, so we cannot create a Logger object directly.
 
 # Question_№2
 

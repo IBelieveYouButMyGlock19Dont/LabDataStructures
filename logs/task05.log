@@ -1,0 +1,15 @@
+[2026-11-02 18:11:56] [INFO] [string ctor] id=1 this=0x16d6ab228 value="hello" alive=1
+[2026-11-02 18:11:56] [INFO] [cstr ctor] id=1 this=0x16d6ab228
+[2026-11-02 18:11:56] [INFO] [string ctor] id=2 this=0x16d6ab208 value="world" alive=2
+[2026-11-02 18:11:56] [INFO] [cstr ctor] id=2 this=0x16d6ab208
+[2026-11-02 18:11:56] [INFO] [operator <<]
+[2026-11-02 18:11:56] [INFO] [operator <<]
+[2026-11-02 18:11:56] [INFO] [operator ==]
+[2026-11-02 18:11:56] [INFO] [operator !=]
+[2026-11-02 18:11:56] [INFO] [operator <]
+[2026-11-02 18:11:56] [INFO] [operator +]
+[2026-11-02 18:11:56] [INFO] [string ctor] id=3 this=0x16d6ab1e8 value="helloworld" alive=3
+[2026-11-02 18:11:56] [INFO] [operator <<]
+[2026-11-02 18:11:56] [INFO] [dtor] id=3 this=0x16d6ab1e8 alive=2
+[2026-11-02 18:11:56] [INFO] [dtor] id=2 this=0x16d6ab208 alive=1
+[2026-11-02 18:11:56] [INFO] [dtor] id=1 this=0x16d6ab228 alive=0

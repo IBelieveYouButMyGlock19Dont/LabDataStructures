@@ -26,7 +26,7 @@ The assignment operator changes only the value. The id stays the same.
 # Question_№4
 
 The objects are destroyed in the opposite order of their creation.
-Objects a,b,c,d was created.
+Objects a,b,c,d created.
 When the block ends, they are destroyed in this order: d,c,b,a
 It happens because C++ destroys local objects in reverse order.
 

@@ -1,0 +1,5 @@
+[2026-11-02 16:59:56] [INFO] [default ctor] id=1 this=0x16d2df228 alive=1
+[2026-11-02 16:59:56] [INFO] [string ctor] id=2 this=0x16d2df100 value="hello" alive=2
+[2026-11-02 16:59:56] [INFO] [copy assign] id=1 this=0x16d2df228 from id=2
+[2026-11-02 16:59:56] [INFO] [dtor] id=2 this=0x16d2df100 alive=1
+[2026-11-02 16:59:56] [INFO] [dtor] id=1 this=0x16d2df228 alive=0

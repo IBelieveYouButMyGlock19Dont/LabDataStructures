@@ -14,7 +14,7 @@ int main() {
         std::string s="world";
         TrackedString c(s);
         TrackedString d=c;
-        a = b;
+        a=b;
     }
 
     logger.log("totalCreated = " + std::to_string(TrackedString::getTotalCreated()),Logger::Level::INFO

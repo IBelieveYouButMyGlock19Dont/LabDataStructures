@@ -4,8 +4,8 @@ add_executable(04_task
         tracked_string.h
 )
 
-target_include_directories(03_task PRIVATE
+target_include_directories(04_task PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-target_link_libraries(03_task PRIVATE logger)
+target_link_libraries(04_task PRIVATE logger)

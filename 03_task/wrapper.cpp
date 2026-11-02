@@ -1,3 +1,9 @@
-//
-// Created by Mark Greenberg on 11/2/26.
-//
+#include "wrapper.h"
+
+WrapperA::WrapperA(const std::string& s) {
+    str=TrackedString(s);
+}
+
+WrapperB::WrapperB(const std::string& s): str(s) {
+}
+

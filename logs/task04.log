@@ -1,0 +1,6 @@
+[2026-11-02 17:16:24] [INFO] [string ctor] id=1 this=0x16b57f238 value="" alive=1
+[2026-11-02 17:16:24] [INFO] [default ctor] id=1 this=0x16b57f238
+[2026-11-02 17:16:24] [INFO] [string ctor] id=2 this=0x16b57f218 value="test" alive=2
+[2026-11-02 17:16:24] [INFO] [cstr ctor] id=2 this=0x16b57f218
+[2026-11-02 17:16:24] [INFO] [dtor] id=2 this=0x16b57f218 alive=1
+[2026-11-02 17:16:24] [INFO] [dtor] id=1 this=0x16b57f238 alive=0
