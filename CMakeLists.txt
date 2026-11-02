@@ -14,5 +14,4 @@ add_subdirectory(02_task)
 add_subdirectory(03_task)
 add_subdirectory(04_task)
 add_subdirectory(05_task)
-add_subdirectory(06_task)
 
